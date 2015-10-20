@@ -1,0 +1,44 @@
+---
+
+---
+
+// Curriculum styles
+
+.contact ul{
+	list-style: none;
+
+	li:nth-child(odd){
+		float: right;
+		width: 200px;
+		position: relative;
+		right: 50px;
+	}
+}
+
+
+// Post styles
+
+.fa-check-square{
+
+	color: green
+}
+
+
+// Styles demos
+
+@import 'demo_tooltip';
+
+
+// Media queries which I am not products
+
+@media screen and (max-width: 900px){
+	.contact ul{
+		text-align: center;
+	li:nth-child(odd){
+		float: none;
+		right: 0;
+		width: inherit;
+	}
+}
+
+}

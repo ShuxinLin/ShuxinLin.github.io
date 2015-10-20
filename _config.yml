@@ -1,3 +1,7 @@
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
+
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -5,18 +9,21 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Shuxin Lin
-tagline:             '|| 林舒心,,Ծ‸Ծ,,'
-description:         'Interested in algorithm, machine learning, deep learning, data science, etc.'
-url:                 http://lanyon.getpoole.com
-baseurl:             ''
-paginate:            5
+title:            Shuxin Lin
+tagline:          '|| 林舒心 ,,Ծ‸Ծ,,'
+description:      'Interested in algorithm, machine learning, deep learning, data science, etc.'
+url:              http://shuxinlin.github.io/
+baseurl:          /
 
-# About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:           'Shuxin Lin'
+paginate:         5
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+excerpt_separator: "<!-- more -->"
 
 # Custom vars
 version:             1.0.0
