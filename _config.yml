@@ -18,3 +18,7 @@ author:
   url:               https://twitter.com/mdo
   email:             markdotto@gmail.com
 
+# Custom vars
+version:             1.0.0
+
+github_repo: https://github.com/ShuxinLin
